@@ -1,0 +1,74 @@
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Temporary files
+*.tmp
+*.temp
+.cache/
+temp/
+
+# Notion export files
+*.zip
+
+# Personal notes
+personal/
+private/
+notes/
+draft/
+
+# Build outputs
+build/
+dist/
+output/
+
+# Dependencies
+node_modules/
+.npm/
+.yarn/
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# Log files
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Coverage directory used by tools like istanbul
+coverage/
+*.lcov
+
+# nyc test coverage
+.nyc_output
+
+# Backup files
+*.bak
+*.backup
+*.orig
+
+# Assets (if needed, remove specific lines)
+# assets/images/original/
+# assets/videos/
+# assets/temp/
