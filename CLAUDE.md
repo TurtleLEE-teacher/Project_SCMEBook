@@ -51,8 +51,8 @@ Project_SCMEBook/
 ├── README.md                       # User-facing project introduction
 ├── CLAUDE.md                       # This file - AI assistant guide
 │
-├── Notion_251117.zip               # Notion export archive (in master branch)
-└── ... (other planning docs)
+├── Notion_251117.zip               # Notion export archive
+└── .claude/                         # Claude Code configuration
 \`\`\`
 
 ## 🎯 Primary Content (최종원고/ directory)
@@ -113,10 +113,9 @@ The Notion export contains **pure narrative storytelling** with practical insigh
 4. **Trust the Notion export** - It's the authoritative source
 
 ### DON'Ts ❌
-1. **Don't edit `/chapters/` files** - Legacy references only
-2. **Don't invent facts** - Only use author's real experiences
-3. **Don't use formal academic tone** - Keep conversational
-4. **Don't contradict Notion export** - It's the source of truth
+1. **Don't invent facts** - Only use author's real experiences
+2. **Don't use formal academic tone** - Keep conversational
+3. **Don't contradict Notion export** - It's the source of truth
 
 ## 📊 Progress Status
 
