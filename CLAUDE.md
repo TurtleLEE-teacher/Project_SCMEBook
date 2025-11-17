@@ -41,18 +41,18 @@ Project_SCMEBook/
 │   ├── 04_데이터분석.md             # Ch4: 야근맨에서 칼퇴맨으로 변신하다 (26KB)
 │   ├── 05_글로벌소싱.md             # Ch5: 본격적인 PI 합류, SAP MM·ABAP·회계 연동 (27KB)
 │   ├── 06_위기관리.md               # Ch6: 폭풍 속에서 홀로 서다 (17KB)
-│   ├── 07_컨설턴트전환.md           # Ch7: 글로벌 컨설팅펌, 새로운 세계가 열리다 (14KB)
+│   ├── 07_컨설턴트전환.md           # Ch7: 글로벌 컨설팅펌, 새로운 세계가 열리다 (21KB)
 │   ├── 08_대형프로젝트.md           # Ch8: 14개월의 지옥, 진짜 컨설턴트가 되다 (25KB)
 │   ├── 09_산업별SCM.md              # Ch9: 산업별 SCM의 다양한 얼굴들 (35KB)
-│   ├── 10_실무바이블.md             # Ch10: 12년 경험으로 정리한 SCM 실무 바이블 (17KB)
+│   ├── 10_실무바이블.md             # Ch10: 12년 경험으로 정리한 SCM 실무 바이블 (29KB)
 │   ├── 11_부록_로드맵.md            # Appendix: SCM 고수 되는 노가다 대공개 (350B - OUTLINE ONLY)
 │   └── 99_에필로그.md               # Epilogue: 12년, SCM과 함께 성장하다 (12KB)
 │
 ├── README.md                       # User-facing project introduction
 ├── CLAUDE.md                       # This file - AI assistant guide
 │
-├── Notion_251117.zip               # Notion export archive (in master branch)
-└── ... (other planning docs)
+├── Notion_251117.zip               # Notion export archive
+└── .claude/                         # Claude Code configuration
 \`\`\`
 
 ## 🎯 Primary Content (최종원고/ directory)
@@ -70,10 +70,10 @@ Project_SCMEBook/
 | `04_데이터분석.md` | ⚡ | 제4장: 야근맨에서 칼퇴맨으로 변신하다 | 26KB | ✅ Complete |
 | `05_글로벌소싱.md` | 💻 | 제5장: 본격적인 PI 합류, SAP MM·ABAP·회계 연동 | 27KB | ✅ Complete |
 | `06_위기관리.md` | 🌪️ | 제6장: 폭풍 속에서 홀로 서다 | 17KB | ✅ Complete |
-| `07_컨설턴트전환.md` | ✈️ | 제7장: 글로벌 컨설팅펌, 새로운 세계가 열리다 | 14KB | ✅ Complete |
+| `07_컨설턴트전환.md` | ✈️ | 제7장: 글로벌 컨설팅펌, 새로운 세계가 열리다 | 21KB | ✅ Complete |
 | `08_대형프로젝트.md` | 🔥 | 제8장: 14개월의 지옥, 진짜 컨설턴트가 되다 | 25KB | ✅ Complete |
 | `09_산업별SCM.md` | 🏭 | 제9장: 산업별 SCM의 다양한 얼굴들 | 35KB | ✅ Complete |
-| `10_실무바이블.md` | 📖 | 제10장: 12년 경험으로 정리한 SCM 실무 바이블 | 17KB | ✅ Complete |
+| `10_실무바이블.md` | 📖 | 제10장: 12년 경험으로 정리한 SCM 실무 바이블 | 29KB | ✅ Complete |
 | `11_부록_로드맵.md` | 📚 | 부록: SCM 고수 되는 노가다 대공개 | 350B | ⚠️ Outline only |
 | `99_에필로그.md` | 🌅 | 에필로그: 12년, SCM과 함께 성장하다 | 12KB | ✅ Complete |
 
@@ -113,10 +113,9 @@ The Notion export contains **pure narrative storytelling** with practical insigh
 4. **Trust the Notion export** - It's the authoritative source
 
 ### DON'Ts ❌
-1. **Don't edit `/chapters/` files** - Legacy references only
-2. **Don't invent facts** - Only use author's real experiences
-3. **Don't use formal academic tone** - Keep conversational
-4. **Don't contradict Notion export** - It's the source of truth
+1. **Don't invent facts** - Only use author's real experiences
+2. **Don't use formal academic tone** - Keep conversational
+3. **Don't contradict Notion export** - It's the source of truth
 
 ## 📊 Progress Status
 
