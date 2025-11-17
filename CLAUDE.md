@@ -32,7 +32,6 @@ Project_SCMEBook/
 │   └── settings.local.json         # Local Claude settings
 │
 ├── .git/                           # Primary Git repository
-├── .scm-ebook-git/                 # Secondary Git directory (legacy)
 │
 ├── 최종원고/                        # FINAL MANUSCRIPTS (Primary Content - FROM NOTION)
 │   ├── 00_프롤로그.md               # Prologue: 공급망을 향한 첫 발걸음 (6.5KB)
@@ -48,14 +47,6 @@ Project_SCMEBook/
 │   ├── 10_실무바이블.md             # Ch10: 12년 경험으로 정리한 SCM 실무 바이블 (17KB)
 │   ├── 11_부록_로드맵.md            # Appendix: SCM 고수 되는 노가다 대공개 (350B - OUTLINE ONLY)
 │   └── 99_에필로그.md               # Epilogue: 12년, SCM과 함께 성장하다 (12KB)
-│
-├── chapters/                       # LEGACY CHAPTER DRAFTS (Reference Only - DO NOT EDIT)
-│   ├── 제1장_새로운시작.md          # Old version - obsolete
-│   ├── 제1장_업그레이드.md          # Old version - obsolete
-│   └── ... (other legacy files)
-│
-├── assets/                         # Supporting materials
-│   └── templates/                  # Practical templates
 │
 ├── README.md                       # User-facing project introduction
 ├── CLAUDE.md                       # This file - AI assistant guide
